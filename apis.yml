@@ -1,8 +1,27 @@
 aid: clearco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearco.png
 name: Clearco
-description: 'Clearco is a company surfaced as a portfolio company of emergence-capital, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Clearco is a fintech company providing non-dilutive, revenue-based capital
+  to direct-to-consumer ecommerce and SaaS businesses, having deployed over $3 billion
+  across more than 10,000 funded companies. Its funding products include Fixed Funding
+  Capacity, Rolling Funding Capacity, Cash Advance, and Invoice Funding, with capped
+  weekly payments and funding decisions within 24 hours. Clearco connects to a founder''s
+  existing commerce and payments stack (Amazon, Shopify, Stripe, PayPal, Square, BigCommerce)
+  to underwrite revenue, rather than exposing a public developer API. This profile was
+  surfaced as a portfolio company of Emergence Capital and the SoftBank Vision Fund and
+  enriched by the API Evangelist pipeline; no public API, developer portal, SDKs, or
+  webhook surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/clearco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Fintech
+- Financing
+- Ecommerce
+- Working Capital
+- Revenue-Based Financing
+- Embedded Finance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.clear.co
+- type: Support
+  url: https://help.clear.co/
+- type: Blog
+  url: https://www.clear.co/blog
+- type: SignUp
+  url: https://www.clear.co/capital-funding-for-founders
+- type: Login
+  url: https://my.clearbanc.com/login
+- type: TermsOfService
+  url: https://www.clear.co/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.clear.co/legal/privacy-policy
+- type: DomainSecurity
+  url: security/clearco-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
